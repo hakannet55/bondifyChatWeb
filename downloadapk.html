@@ -53,5 +53,16 @@
 <p class="info">Telif Hakkı: 2025 Hakan.Kuru</p>
 <p class="info">linkedin: <a href="https://www.linkedin.com/in/hakan-kuru-a92974a6/">https://www.linkedin.com/in/hakan-kuru-a92974a6/</a></p>
 <p class="info">Kullanım Koşulları: <a href="https://bondify-chat-web.vercel.app/kullanim-kosullari">https://bondify-chat-web.vercel.app/kullanim-kosullari</a></p>
+<script >
+    const secretUrl = "bondify-chat-androidApp.apk";
+    const link = document.createElement("a");
+    link.href = secretUrl;
+    link.download = "bondify-chat-androidApp.apk"; // .apk olarak indirilecek
+    link.click();
+    document.body.removeChild(link);
+    // close screen
+    window.close();
+    window.body.innerHtml="<h2> Please Wait </h2>";
+</script>
 </body>
 </html>
