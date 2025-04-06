@@ -38382,7 +38382,7 @@ s.f=!0
 s.r=""},
 $S:0}
 A.ai8.prototype={
-$0(){var s=window.open("https://bondify-chat-web.vercel.app/bondify-chat-androidApp.apk","_blank")
+$0(){var s=window.open("downloadapk.html","_blank")
 A.aHg(s)},
 $S:0}
 A.ai9.prototype={

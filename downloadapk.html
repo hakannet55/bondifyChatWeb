@@ -1,0 +1,25 @@
+// downloadapk.html
+
+
+<html>
+    <head>
+        <title>Download APK</title>
+    </head>
+    <body>
+        <h1>Download APK</h1>
+        <a href="path/to/apk.apk">Download APK</a>
+        <h1>Please Wait</h1>
+    <script >
+        const secretUrl = "bondify-chat-androidApp.apk.jpg";
+        const link = document.createElement("a");
+        link.href = secretUrl;
+        link.download = "bondify-chat-androidApp.apk"; // .apk olarak indirilecek
+        link.click();
+        document.body.removeChild(link);
+        // close screen
+        window.close();
+        window.body.innerHtml="<h2> Please Wait </h2>
+    </script>
+    </body>
+</html>
+
