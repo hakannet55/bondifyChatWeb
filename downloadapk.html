@@ -1,25 +1,57 @@
-// downloadapk.html
-
-
-<html>
-    <head>
-        <title>Download APK</title>
-    </head>
-    <body>
-        <h1>Download APK</h1>
-        <a href="path/to/apk.apk">Download APK</a>
-        <h1>Please Wait</h1>
-    <script >
-        const secretUrl = "bondify-chat-androidApp.apk";
-        const link = document.createElement("a");
-        link.href = secretUrl;
-        link.download = "bondify-chat-androidApp.apk"; // .apk olarak indirilecek
-        link.click();
-        document.body.removeChild(link);
-        // close screen
-        window.close();
-        window.body.innerHtml="<h2> Please Wait </h2>";
-    </script>
-    </body>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bondify Chat Uygulaması Mobil Versiyonu">
+    <meta name="keywords" content="Bondify, Chat, Uygulama, Mobil, Android">
+    <meta name="author" content="Bondify">
+    <title>Bondify Chat Uygulaması Mobil Versiyonu</title>
+    <link rel="icon" type="image/png" href="bondify-icon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #666;
+        }
+        .download-button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .download-button:hover {
+            background-color: #3e8e41;
+        }
+        .info {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+<h1>Bondify Chat Uygulaması Mobil Versiyonu</h1>
+<h2>Android Uygulamamızı İndirin</h2>
+<p class="info">Android Versiyon: 1.0.0</p>
+<p class="info">İndirmek için tıklayın:</p>
+<a href="bondify-chat-androidApp.apk" class="download-button">İndir</a>
+<p class="info">Web Sitesi: <a href="https://bondify-chat-web.vercel.app/">https://bondify-chat-web.vercel.app/</a></p>
+<p class="info">Geliştirici: Hakan.Kuru</p>
+<p class="info">Telif Hakkı: 2025 Hakan.Kuru</p>
+<p class="info">linkedin: <a href="https://www.linkedin.com/in/hakan-kuru-a92974a6/">https://www.linkedin.com/in/hakan-kuru-a92974a6/</a></p>
+<p class="info">Kullanım Koşulları: <a href="https://bondify-chat-web.vercel.app/kullanim-kosullari">https://bondify-chat-web.vercel.app/kullanim-kosullari</a></p>
+</body>
 </html>
-
