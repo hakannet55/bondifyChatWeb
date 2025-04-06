@@ -38223,7 +38223,7 @@ yj(){var s=0,r=A.N(t.z),q=this,p,o,n,m
 var $async$yj=A.O(function(a,b){if(a===1)return A.K(b,r)
 while(true)switch(s){case 0:n=t.N
 s=2
-return A.R(A.Fg(A.et("http://localhost:3000/login"),B.aV.iV(A.am(["username",q.d.a.a,"password",q.e.a.a],n,n)),A.am(["Content-Type","application/json"],n,n)).kk(new A.ai5(q)),$async$yj)
+return A.R(A.Fg(A.et("https://node-js-backend-chat-api.vercel.app/login"),B.aV.iV(A.am(["username",q.d.a.a,"password",q.e.a.a],n,n)),A.am(["Content-Type","application/json"],n,n)).kk(new A.ai5(q)),$async$yj)
 case 2:m=b
 if(m.b===200){p=B.aV.dg(0,A.VL(A.VA(m.e).c.a.h(0,"charset")).dg(0,m.w))
 n=J.aw(p)
@@ -38312,7 +38312,7 @@ vL(){var s=0,r=A.N(t.H),q=this,p,o
 var $async$vL=A.O(function(a,b){if(a===1)return A.K(b,r)
 while(true)switch(s){case 0:o=t.N
 s=2
-return A.R(A.Fg(A.et("http://localhost:3000/register"),B.aV.iV(A.am(["username",q.d.a.a,"password",q.e.a.a],o,o)),A.am(["Content-Type","application/json"],o,o)).kk(new A.aj4(q)),$async$vL)
+return A.R(A.Fg(A.et("https://node-js-backend-chat-api.vercel.app/register"),B.aV.iV(A.am(["username",q.d.a.a,"password",q.e.a.a],o,o)),A.am(["Content-Type","application/json"],o,o)).kk(new A.aj4(q)),$async$vL)
 case 2:o=b.b
 p=q.c
 if(o===201){p.toString
@@ -38341,7 +38341,7 @@ if(m==null){q=!1
 s=1
 break}o=t.N
 s=4
-return A.R(A.Fg(A.et("http://localhost:3000/tokenValidity"),null,A.am(["Content-Type","application/json","Authorization",m],o,o)),$async$u_)
+return A.R(A.Fg(A.et("https://node-js-backend-chat-api.vercel.app/tokenValidity"),null,A.am(["Content-Type","application/json","Authorization",m],o,o)),$async$u_)
 case 4:n=b
 q=A.VL(A.VA(n.e).c.a.h(0,"charset")).dg(0,n.w)==="1"
 s=1
@@ -38370,7 +38370,7 @@ return A.R(A.mo(),$async$pW)
 case 3:l=k.c7(j.b_(d.a,"user_token"))
 s=l!=null?4:5
 break
-case 4:p=A.et("http://localhost:3000/sendmessages"+("/"+a))
+case 4:p=A.et("https://node-js-backend-chat-api.vercel.app/sendmessages"+("/"+a))
 o=t.N
 n=A.am(["Content-Type","application/json","Authorization",l],o,o)
 s=6
@@ -38395,7 +38395,7 @@ case 3:n=m.c7(l.b_(c.a,"user_token"))
 if(n==null)throw A.e(A.d0("No authentication token found"))
 p=t.N
 s=4
-return A.R(A.Fg(A.et("http://localhost:3000/messages"+("/"+a)),null,A.am(["Content-Type","application/json","Authorization",n],p,p)),$async$rW)
+return A.R(A.Fg(A.et("https://node-js-backend-chat-api.vercel.app/messages"+("/"+a)),null,A.am(["Content-Type","application/json","Authorization",n],p,p)),$async$rW)
 case 4:o=c
 if(o.b===200){q=A.j2(B.aV.dg(0,A.VL(A.VA(o.e).c.a.h(0,"charset")).dg(0,o.w)),!0,t.a)
 s=1
@@ -38413,7 +38413,7 @@ A.iE(m)
 if(m==null)throw A.e(A.d0("No authentication token found"))
 p=t.N
 s=4
-return A.R(A.Fg(A.et("http://localhost:3000/users"),null,A.am(["Content-Type","application/json","Authorization",m],p,p)),$async$rX)
+return A.R(A.Fg(A.et("https://node-js-backend-chat-api.vercel.app/users"),null,A.am(["Content-Type","application/json","Authorization",m],p,p)),$async$rX)
 case 4:o=b
 if(o.b===200){n=new A.Yk().ajw(A.VL(A.VA(o.e).c.a.h(0,"charset")).dg(0,o.w))
 A.iE(n)
